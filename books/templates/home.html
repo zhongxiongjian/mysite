@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自强学堂</title>
+</head>
+<body>
+ <a href="{{ request.path }}?{{ request.GET.urlencode }}&delete=1">当前网址加参数 delete</a>
+<a href="{% url 'add' 4 5 %}">计算</a>
+ 
+</body>
+</html>
